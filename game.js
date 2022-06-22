@@ -137,11 +137,11 @@ class Game{
          
 
     
-     showRank() {
+     showRank() 
             alert("¡Impresionante! ¡Terminaste el juego! Tu puntuación es :" +player.rank)
      }
 
-    gameOver() {
+    gameOver(){
         textSize(40)
         fill("white")
         text("FIN DEL JUEGO",displayWidth/2-400,displayHeight/2-200)
@@ -152,6 +152,10 @@ class Game{
        console.log(player.rank)
        this.gameOver();
     }
+
+
+
+
 
 
 
